@@ -67,7 +67,7 @@ $combined_classes = $nombre_sitio . ' ' . implode(' ', $body_classes);
   ?>
     </title>
 
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bakerymaq.css?0.0.20" />
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bakerymaq.css?0.0.21" />
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" />
     <?php wp_head(); ?>
 
