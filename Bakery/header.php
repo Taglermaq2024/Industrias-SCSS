@@ -67,7 +67,7 @@ $combined_classes = $nombre_sitio . ' ' . implode(' ', $body_classes);
   ?>
     </title>
 
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bakerymaq.css?0.0.21" />
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bakerymaq.css?0.0.25" />
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" />
     <?php wp_head(); ?>
 
@@ -112,14 +112,14 @@ $combined_classes = $nombre_sitio . ' ' . implode(' ', $body_classes);
                                         <li>
                                             <a href="<?php bloginfo('url'); ?>/embutidoras-al-vacio/">
                                                 <img class="img_icon color1"
-                                                    src="https://www.taglermaq.cl/bakerymaq/wp-content/uploads/sites/2/2024/05/ico_envasadora.svg">
+                                                    src="https://www.taglermaq.cl/bakerymaq/wp-content/uploads/sites/11/2025/06/icomenu-embutidora.svg">
                                                 Embutidoras al vacio
                                             </a>
                                         </li>
                                         <li>
                                             <a href="<?php bloginfo('url'); ?>/fabricadoras-de-hielo">
                                                 <img class="img_icon color2"
-                                                    src="https://taglermaq.cl/bakerymaq/wp-content/uploads/sites/2/2024/05/ico_filtros-sanitarios.svg">
+                                                    src="https://taglermaq.cl/bakerymaq/wp-content/uploads/sites/11/2025/06/icomenu-hielo.svg">
                                                 Fabricadoras de hielo
                                             </a>
                                         </li>
@@ -133,7 +133,7 @@ $combined_classes = $nombre_sitio . ' ' . implode(' ', $body_classes);
                                         <li>
                                             <a href="<?php bloginfo('url'); ?>/hornos-y-marmitas/">
                                                 <img class="img_icon color4"
-                                                    src="https://taglermaq.cl/bakerymaq/wp-content/uploads/sites/2/2024/05/ico_marmitas.svg">
+                                                    src="https://taglermaq.cl/bakerymaq/wp-content/uploads/sites/11/2025/06/icomenu-hornos.svg">
                                                 Hornos y Marmitas
                                             </a>
                                         </li>
@@ -150,13 +150,13 @@ $combined_classes = $nombre_sitio . ' ' . implode(' ', $body_classes);
                                         <li>
                                             <a href="<?php bloginfo('url'); ?>/manipulacion-de-cargas/">
                                                 <img class="img_icon color6"
-                                                    src="https://taglermaq.cl/bakerymaq/wp-content/uploads/sites/2/2024/05/ico_envasadora.svg">
+                                                    src="https://taglermaq.cl/bakerymaq/wp-content/uploads/sites/11/2025/06/icomenu-manipulacion-cargas.svg">
                                                 Manipulación de cargas
                                             </a>
                                         </li>
                                         <li><a href="<?php bloginfo('url'); ?>/maquinas-cortadoras/?_maquinas_cortadoras=cortadoras-de-pan">
                                                 <img class="img_icon color7"
-                                                    src="https://taglermaq.cl/bakerymaq/wp-content/uploads/sites/2/2024/05/ico_cortadoras.svg">
+                                                    src="https://taglermaq.cl/bakerymaq/wp-content/uploads/sites/11/2025/06/icomenu-cortadoras.svg">
                                                 Máquinas cortadoras
                                             </a>
                                         </li>
@@ -173,7 +173,7 @@ $combined_classes = $nombre_sitio . ' ' . implode(' ', $body_classes);
                                         <li>
                                             <a href="<?php bloginfo('url'); ?>/maquinas-envasadoras?_maquinas_envasadoras=desapiladores-de-bandejas">
                                                 <img class="img_icon color9"
-                                                    src="https://taglermaq.cl/bakerymaq/wp-content/uploads/sites/2/2024/05/ico_envasadora.svg">
+                                                    src="https://taglermaq.cl/bakerymaq/wp-content/uploads/sites/11/2025/06/icomenu-envasadoras.svg">
                                                 Máquinas envasadoras
                                             </a>
                                         </li>
@@ -181,14 +181,14 @@ $combined_classes = $nombre_sitio . ' ' . implode(' ', $body_classes);
                                         <li>
                                             <a href="<?php bloginfo('url'); ?>/preparacion-de-salmueras">
                                                 <img class="img_icon color10"
-                                                    src="https://taglermaq.cl/bakerymaq/wp-content/uploads/sites/2/2024/05/ico_procesamiento.svg">
+                                                    src="https://taglermaq.cl/bakerymaq/wp-content/uploads/sites/11/2025/06/icomenu-salmuera.svg">
                                                 Preparación de salmuera
                                             </a>
                                         </li>
                                         <li>
                                             <a href="<?php bloginfo('url'); ?>/sistemas-de-automatizacion/">
                                                 <img class="img_icon color11"
-                                                    src="https://taglermaq.cl/bakerymaq/wp-content/uploads/sites/2/2024/05/ico_lavadoras.svg">
+                                                    src="https://taglermaq.cl/bakerymaq/wp-content/uploads/sites/11/2025/06/icomenu-automatizacion.svg">
                                                 Sistema de automatización
                                             </a>
                                         </li>

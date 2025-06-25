@@ -190,22 +190,41 @@ jsArrow.onclick = function() {
     });
   };
 
-  // Cargar animación preload al pinchar categoría
-  document.addEventListener('DOMContentLoaded', function() {
-    // Selecciona todos los enlaces en tu menú
-    const links = document.querySelectorAll('.tv-category-image');
 
-    // Agrega el evento de clic a cada enlace
-    links.forEach(link => {
-      link.addEventListener('click', function(event) {
-          // Muestra el overlay
-          document.getElementById('loading-overlay').style.display = 'flex';
-      });
-    });
-  });
-  
- </script>
+</script>
  
+
+
+ <script>
+// TODO: SI "NO QUIERES" MOSTRAR EL PRELOADER AGREGA LA CLASE "no-preload" AL ENLACE
+// TODO: ANIMACIÓN PRELOADER PARA TODO EL SITIO WEB (CUANDO SE HACE CLICK EN CUALQUIER ENLACE)
+document.addEventListener('DOMContentLoaded', function () {
+    
+	// Mostrar el preloader al hacer clic en cualquier enlace
+    document.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', function (event) {
+            
+			// Verifica si el enlace tiene la clase 'no-preload' antes de activar el preloader 
+            if (!link.classList.contains('no-preload')) {
+                document.getElementById('loading-overlay').style.display = 'flex';
+            }
+        });
+    });
+
+    // Ocultar el preloader cuando la página se haya cargado completamente
+    window.addEventListener('load', function () {
+        document.getElementById('loading-overlay').style.display = 'none';
+    });
+
+    // Detectar si la página fue cargada desde el caché del navegador
+    window.addEventListener('pageshow', function (event) {
+        if (event.persisted) {
+            // !Si se cargó desde el caché, (si se vuelve atras desde el navegador se oculta preload)
+            document.getElementById('loading-overlay').style.display = 'none';
+        }
+    });
+});
+</script>
 
 
 

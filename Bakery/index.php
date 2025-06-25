@@ -25,7 +25,7 @@ get_header(); ?>
             </div>
             <div class="contenido">
                 <div class="titulo">
-                    <h2><?php the_field('titulo_h01'); ?></h2>
+                    <h2><?php the_field('titulo_h01'); ?>"</h2>
                 </div>
                 <?php the_field('contenido_h01'); ?>
                 <a href="<?php bloginfo('url'); ?>/contacto" class="btn-default"><span>Contacto</span></a>
@@ -41,7 +41,7 @@ get_header(); ?>
 
             <div class="content-title-principal">
                 <h2>APLICACIONES</h2>
-                <h3>Tecnología para la Industria Cárnica</h3>
+                <h3>Tecnología para la industria Bakery</h3>
             </div>
             <!--tí<tulo-->
 
@@ -78,7 +78,7 @@ get_header(); ?>
 
 
 
-    <!-- <div class="equipos">
+    <div class="equipos">
         <div class="contenido">
 
             <div class="titulo">
@@ -87,10 +87,12 @@ get_header(); ?>
                         <div class="titulo-h2">
                             <h2>Equipos y tecnologías</h2>
                         </div>
+                        <!--h2-->
                         <p>Para el desarrollo de tu negocio</p>
                     </div>
                 </div>
             </div>
+            <!--info-->
 
             <div class="carrusel">
                 <div id="equipos-tecnologias" class="owl-carousel owl-theme">
@@ -118,12 +120,14 @@ get_header(); ?>
                     <?php endwhile; ?>
                     <?php endif; ?>
 
-                </div>
-            </div>
+                </div><!-- #owl-demo-2 -->
+            </div><!-- .container -->
         </div>
+        <!--carrusel-->
 
-    </div> -->
     </div>
+    </div>
+    <!--equipo-->
 
 
     <div class="soluciones">
@@ -139,11 +143,6 @@ get_header(); ?>
     <!--soluciones-->
 
 
-
-
-    
-
-
     
     <!-- Materializa tus ideas -->
     <div class="ideas">
@@ -151,27 +150,24 @@ get_header(); ?>
             <h2>Materializa tus ideas</h2>
             <h3>Innovación y tecnología al servicio de tus necesidades</h3>
         </div>
-        
 
         <div class="wrapper-box-ideas">
-
-
             <div class="content-box-ideas">
                 <div class="img-ideas">
-                    <img src="<?php bloginfo('url'); ?>/wp-content/uploads/sites/14/2024/11/almacen-vertical.jpg" alt="">
+                    <img src="<?php bloginfo('url'); ?>/wp-content/uploads/sites/11/2024/06/barritas-cereal.jpg" alt="">
                 </div>
                 <div class="capas-ideas">
                     <div class="capa-1">
                         <div class="content-img-txt">
-                            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/sites/14/2024/11/almacen-vertical.jpg" alt="">
-                            <h2>MODULA</h2>
-                            <p>Almacenes Automáticos</p>
+                            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/sites/11/2024/06/barritas-cereal.jpg" alt="">
+                            <h2>HANDTMANN</h2>
+                            <p>Barritas de Cereal</p>
                         </div>
                     </div>
                     <div class="capa-2">
                         <div class="content-txt-button">
-                            <p>Los Almacenes Modula permiten almacenar productos de forma ordenada, ahorrando tiempo y espacio. Esto permite trabajar con productos de forma segura, garantizando su total trazabilidad, facilitando la gestión de datos y el control de inventario.</p>
-                            <a href="https://taglermaq.cl/logisticmaq/modula/">
+                            <p>El sistema de formado FS 510 permite la producción desde 6 a 24 pistas y logrando crear productos con variadas formas (alargadas, cilíndricas, estrellas, entre otras) con diámetros de hasta 80 mm y longitudes desde 20 mm..</p>
+                            <a href="<?php bloginfo('url'); ?>/formadoras-industriales-fs-510/">
                                 <button>Ver Máquina</button>
                             </a>
                         </div>
@@ -182,20 +178,20 @@ get_header(); ?>
 
             <div class="content-box-ideas">
                 <div class="img-ideas">
-                    <img src="<?php bloginfo('url'); ?>/wp-content/uploads/sites/14/2024/11/chequeador-de-peso.jpg" alt="">
+                    <img src="<?php bloginfo('url'); ?>/wp-content/uploads/sites/11/2024/06/envasador-galletas.jpg" alt="">
                 </div>
                 <div class="capas-ideas">
                     <div class="capa-1">
                         <div class="content-img-txt">
-                            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/sites/14/2024/11/chequeador-de-peso.jpg" alt="">
-                            <h2>ANRITSU</h2>
-                            <p>Sistemas de Inspección</p>
+                            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/sites/11/2024/06/envasador-galletas.jpg" alt="">
+                            <h2>ULMA</h2>
+                            <p>Envasadora de Galletas</p>
                         </div>
                     </div>
                     <div class="capa-2">
                         <div class="content-txt-button">
-                            <p>El chequeador de peso de Cápsulas de Anritsu garantiza precisión de +/- 0,5 mg, inspeccionando hasta 230,000 cápsulas/h en modelos de 10, 20 o 30 carriles. Su diseño reduce estática y vibración, y cuenta con un sistema de rechazo para eliminar cápsulas fuera de especificación.</p>
-                            <a href="https://taglermaq.cl/pharma/sistemas-de-inspeccion/?_sistemas_de_inspeccion=chequeadores-de-peso">
+                            <p>La envolvedora vertical VTI 200 (VFFS) permite realizar envases de tres soldaduras y aplicaciones a velocidades intermedias de hasta 70 ciclos/min. con una excelente relación de calidad y precio.</p>
+                            <a href="<?php bloginfo('url'); ?>/envasadora-vertical-vti-200/">
                                 <button>Ver Máquina</button>
                             </a>
                         </div>
@@ -206,42 +202,32 @@ get_header(); ?>
 
             <div class="content-box-ideas">
                 <div class="img-ideas">
-                    <img src="<?php bloginfo('url'); ?>/wp-content/uploads/sites/14/2024/11/c6-medical.jpg" alt="">
+                    <img src="<?php bloginfo('url'); ?>/wp-content/uploads/sites/11/2024/06/bombones-chocolate.jpg" alt="">
                 </div>
                 <div class="capas-ideas">
                     <div class="capa-1">
                         <div class="content-img-txt">
-                            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/sites/14/2024/11/c6-medical.jpg" alt="">
-                            <h2>VC999</h2>
-                            <p>Envasadora de Campana</p>
+                            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/sites/11/2024/06/bombones-chocolate.jpg" alt="">
+                            <h2>APEX</h2>
+                            <p>Bombones de Chocolate</p>
                         </div>
                     </div>
                     <div class="capa-2">
                         <div class="content-txt-button">
-                            <p>Las envasadoras de campana VC999 para el área Pharma permiten una amplia aplicación para envasado de productos e insumos médicos, esto gracia a su diseño altamente higiénico y compatibilidad con diferentes bolsas. Además, la longitud de sus barras de sellado permite trabajar con un gran número de productos a la vez.</p>
-                            <a href="https://taglermaq.cl/pharma/?s=vc999">
+                            <p>El Deco-Bot es una estación de decoración robótica capaz de realizar escritura, dibujos y más en pasteles o agregar remolinos, rosetas y rosas a cupcakes, logrando terminaciones con apariencia casera.</p>
+                            <a href="<?php bloginfo('url'); ?>/deco-bot/">
                                 <button>Ver Máquina</button>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-
-
-            
         </div>
-
     </div>
 
 
 
 
-
-
-
-
-
-    
     <div class="representaciones">
         <div class="wrapper-titulo-marcas">
             <h2>Representaciones</h2>
